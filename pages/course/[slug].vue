@@ -25,7 +25,7 @@
                     <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z"></path>
                   </svg>
                   <div class="-m-1">
-                     <NuxtLink to="" class="p-1 ml-0.5 text-base font-medium text-gray-400 rounded-md focus:outline-none focus:ring-2 focus:text-gray-900 focus:ring-gray-900 hover:text-gray-700"></NuxtLink>
+                     <NuxtLink to="" class="p-1 ml-0.5 text-base font-medium text-gray-400 rounded-md focus:outline-none focus:ring-2 focus:text-gray-900 focus:ring-gray-900 hover:text-gray-700"> {{ course.name   }} </NuxtLink>
                   </div>
                 </div>
              </li>
@@ -39,7 +39,7 @@
 
               <div class="mt-2 w-2/3 border-gray-100 border-r pr-10 pb-0 border-b-0">
                 <div class="flex">
-                  <h1 class="text-3xl font-bold text-gray-900">  </h1>
+                  <h1 class="text-3xl font-bold text-gray-900"> {{course.name}}</h1>
                 </div>
 
                 <!--Review Section-->
